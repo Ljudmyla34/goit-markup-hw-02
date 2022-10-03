@@ -120,6 +120,7 @@ ul {
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .btn:hover {
@@ -150,6 +151,7 @@ ul {
     line-height: 1.6;
     letter-spacing: 0.03em;
     text-align: center;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -197,6 +199,7 @@ ul {
 
 .footer .link {
     text-decoration: none;
+    font-style: normal;
 }
  
 .link-footer {
