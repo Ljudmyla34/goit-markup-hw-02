@@ -1,10 +1,3 @@
-/* цвет фона */
-/* основний колір тексту nav p color: #757575;  */
-/* другорядний колір тексту h3 h2  color: #212121 */
-/* акцент color: #2196F3 */
-/* білий color: #FFFFFF; */
-/* колір footer пошта та тел color: rgba(255, 255, 255, 0.6); */
-/* коліз секції background: #F5F4FA; */
 
 :root {
   --primary-text-color: #757575;
@@ -15,41 +8,127 @@
 }
 
 body {
-    color: #757575;
-    background: #FFFFFF;
+    color: var(--primary-text-color);
+    background: var(--white-color);
+    
+    font-family: Roboto, sans-serif;
+
 }
 
-.link {
+/* Header */
+
+ul {
+    list-style: none;
+}
+
+.logo {
     color: var(--title-text-color);
+    text-decoration: none;
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+ .site-nav .link {
+    color: var(--title-text-color);
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+ }
+
+.link:hover {
+    color: var(--accent-color);
+}
+
+ .site-nav, .link.current {
+    color: var(--accent-color);
 }
 
 .span-part {
     color: var(--accent-color);
 }
 
+ .link-contacts {
+    color: var(--title-text-color);
+    text-decoration: none;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+ }
+
+  .link-contacts:hover {
+    color: var(--accent-color);
+ }
+
 /* Шапка */
 
 .title-hero{
    color: var(--white-color);
    background-color: #2F303A;
+
+   font-style: normal;
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.4;
+   letter-spacing: 0.06em;
+   text-transform: uppercase;
 }
 
-.portfolio-title-hero {
-
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .title {
     color: var(--title-text-color);
 
-}
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-.link-mail, .link-tel {
-    color: rgba(255, 255, 255, 0.6);
+
 }
 
 .btn {
-     color: var(--white-color);
-     background-color: var(--accent-color);
+    color: var(--white-color);
+    background-color: var(--accent-color);
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+}
+
+.btn:hover {
+    color: var(--accent-color);
+    background-color: var(--white-color);
+}
+.btn:focus {
+    color: var(--accent-color);
+    background-color: var(--white-color);
 }
 
 .section-comand {
@@ -60,12 +139,77 @@ body {
     background-color: var(--white-color);
 }
 
-.portfolio-btn {
+.iteam.button {
     background-color: var(--section-background);
 }
+
+.button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.button.current {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+.button:focus {
+    color: var(--accent-color);
+    background-color: var(--white-color);
+}
+
+.text {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/* footer */
+
 .footer {
     background-color: #2F303A;
 }
- .footer .link {
+ .footer .logo, .link {
     color: var(--white-color);
+ }
+
+.footer .logo {
+    font-family: Raleway, sans-serif;
+
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.footer .link {
+    text-decoration: none;
+}
+ 
+.link-footer {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.link:hover, .link-footer:hover {
+    color: var(--accent-color);
  }
