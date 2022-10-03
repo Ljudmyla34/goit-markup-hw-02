@@ -1,0 +1,71 @@
+/* цвет фона */
+/* основний колір тексту nav p color: #757575;  */
+/* другорядний колір тексту h3 h2  color: #212121 */
+/* акцент color: #2196F3 */
+/* білий color: #FFFFFF; */
+/* колір footer пошта та тел color: rgba(255, 255, 255, 0.6); */
+/* коліз секції background: #F5F4FA; */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --white-color: #FFFFFF;
+  --section-background: #F5F4FA;
+}
+
+body {
+    color: #757575;
+    background: #FFFFFF;
+}
+
+.link {
+    color: var(--title-text-color);
+}
+
+.span-part {
+    color: var(--accent-color);
+}
+
+/* Шапка */
+
+.title-hero{
+   color: var(--white-color);
+   background-color: #2F303A;
+}
+
+.portfolio-title-hero {
+
+}
+
+.title {
+    color: var(--title-text-color);
+
+}
+
+.link-mail, .link-tel {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+     color: var(--white-color);
+     background-color: var(--accent-color);
+}
+
+.section-comand {
+    background-color: var(--section-background);
+}
+
+.item {
+    background-color: var(--white-color);
+}
+
+.portfolio-btn {
+    background-color: var(--section-background);
+}
+.footer {
+    background-color: #2F303A;
+}
+ .footer .link {
+    color: var(--white-color);
+ }
