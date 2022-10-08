@@ -113,8 +113,7 @@ ul {
     clip-path: inset(50%);
     margin: -1px;
 }
-
-.title {
+.title-benefits-main {
     color: var(--title-text-color);
 
     font-family: inherit;
@@ -122,10 +121,29 @@ ul {
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
 }
 
-.title-benefits, .title-work, .title-team {
+.title-work-main {
+    color: var(--title-text-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.title-team-main {
+    color: var(--title-text-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.title-benefits {
     color: var(--title-text-color);
 
     font-family: inherit;
@@ -134,6 +152,32 @@ ul {
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+}
+
+.text-benefits {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+ 
+.title-team {
+    color: var(--title-text-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
+.text-team {
+    color: var(--primary-text-color);
+    
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
 }
 
 .title-portfolio {
@@ -182,11 +226,7 @@ ul {
     background-color: var(--white-color);
 }
 
-.text {
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
-}
+
 
 /* footer */
 
